@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "webpack-dev-server"
+    "build": "webpack-dev-server",
+    "build:prod": "webpack -p"
   },
   "repository": {
     "type": "git",
@@ -19,8 +20,17 @@
   },
   "homepage": "https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project#readme",
   "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "core-js": "^3.6.5",
+    "css-loader": "^3.5.3",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.14.1",
+    "path": "^0.12.7",
+    "sass-loader": "^8.0.2",
     "webpack": "^4.43.0",
-    "webpack-dev-server": "^3.11.0"
+    "webpack-dev-server": "^2.9.7"
   },
   "dependencies": {
     "webpack-cli": "^3.3.11"
