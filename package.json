@@ -11,8 +11,8 @@
     "url": "git+https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Shahid Dhariwala",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project/issues"
   },
