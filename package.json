@@ -16,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project/issues"
   },
-  "homepage": "https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project#readme"
+  "homepage": "https://github.com/shahiddhariwala/webpack-babel-scss-helloworld-project#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
